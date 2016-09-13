@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>笔记展示页</title>
+    <link rel="stylesheet"type="text/css"  href="css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="css/note_showPage.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000
+        });
+
+    </script>
+        </head>
+<body>
+<div class="note_show1">
+     <label>笔记展示</label>
+    <div  id="carousel-example-generic" class="carousel slide" >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/pic1.png" alt="...">
+
+            </div>
+            <div class="item">
+                <img src="images/pic2.png" alt="...">
+
+            </div>
+            <div class="item">
+                <img src="images/pic1.png" alt="...">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+
+</div>
+<div class="note_show2">
+    <input type="text" class="searchinput" value="请输入想搜索的内容"><img src="images/magglass.gif">
+</div>
+<div class="note_show3">
+    <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+        <li role="presentation"><a href="#">Profile<span class="badge">1</span></a></li>
+        <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+    </ul>
+</div>
+<div class="note_show4">
+    <button type="button" class="btn btn-default navbar-btn">创建我的笔记</button>
+</div>
+
+<div>
+    <table class="note_show5 table table-striped table-hover ">
+        <tr>
+            <td><img src="images/top1.jpg"></td>
+            <td><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non</p></td>
+        </tr>
+        <tr>
+            <td><img src="images/top2.jpg"></td>
+            <td><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non</p></td>
+        </tr>
+        <tr>
+            <td><img src="images/top3.jpg"></td>
+            <td><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non</p></td>
+        </tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>

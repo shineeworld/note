@@ -1,0 +1,47 @@
+.note_noteShow1{
+    height: 60px;
+    background-color: black;
+}
+.note_noteShow1 label{
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.note_noteShow2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: lightgrey;
+    font-size: 15px;
+}
+.note_noteShow2 span{
+    font-size: 15px;
+    color: black;
+}
+.note_noteShow3{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.note_noteShow4{
+    margin-left: 50px;
+}
+.note_noteShow4 textarea{
+    width: 400px;
+    height: 400px;
+}
+.note_noteShow5{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.note_noteShow5 textarea{
+    width: 400px;
+}
+@media screen and (max-width: 480px){
+    .note_noteShow4 textarea{
+        width: 250px;
+        height: 100px;
+    }
+    .note_noteShow5 textarea{
+        width: 250px;
+    }
+}
